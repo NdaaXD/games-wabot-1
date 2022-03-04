@@ -40,16 +40,15 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Github:github.com/NdaaXD/
+│
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+©NdaaBotz
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
